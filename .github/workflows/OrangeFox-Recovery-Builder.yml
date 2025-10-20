@@ -15,19 +15,19 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree'
         required: true
-        default: 'https://github.com/kinguser981/android_device_xiaomi_marble-OFRP'
+        default: 'https://github.com/a02-trial/android_device_samsung_a02'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch'
         required: true
-        default: 'fox_12.1'
+        default: 'a02xx-user-11-RP1A.200720.012-A022FXXS3HER%C4%B0-release-keys'
       DEVICE_PATH:
         description: 'Specify your device path.'
         required: true
-        default: 'device/xiaomi/marble'
+        default: 'device/samsung/a02'
       DEVICE_NAME:
         description: 'Specify your Device Codename.'
         required: true
-        default: 'marble'
+        default: 'a02'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
@@ -39,7 +39,7 @@ on:
         - vendorboot
       LDCHECK:
         description: 'Path of blobs to check' 
-        required: true
+        required: false
         default: 'system/bin/qseecomd'
       RECOVERY_TAR:
         description: 'Release recovery.tar For Samsung devices'
