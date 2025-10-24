@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch'
         required: true
-        default: 'a02xx-user-11-RP1A.200720.012-A022FXXS3HERİ-release-keys'
+        default: 'A022FXXS3BWH1'
       DEVICE_PATH:
         description: 'Specify your device path.'
         required: true
